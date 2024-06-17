@@ -1,0 +1,36 @@
+<div class="main">
+  <div class="hero-banner">
+    <div class="list">
+      <ul>
+        <li>Woman's Fasion</li>
+        <li>Men's Fasion</li>
+        <li>Electronics</li>
+        <li>Home & Lifestyle</li>
+        <li>Medicine</li>
+        <li>Sports & Outdoor</li>
+        <li>Baby's & Toys</li>
+        <li>Groceries & Pets</li>
+        <li>Health & Beuty</li>
+      </ul>
+    </div>
+    <div class="carousel">
+      <app-carousel></app-carousel>
+    </div>
+    <div class="app">
+      <app-body-titles
+        smallTitle="Today's"
+        bigTitle="Flash Sales"
+      ></app-body-titles>
+      <div class="items-container">
+        <app-item
+          *ngFor="let product of products"
+          itemName="{{ product.name }}"
+          [itemPrice]="product.price"
+          imgSource="{{ product.image }}"
+        >
+        </app-item>
+      </div>
+      <button class="primary-button products-button">View All Products</button>
+    </div>
+  </div>
+</div>

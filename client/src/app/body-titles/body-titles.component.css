@@ -1,0 +1,31 @@
+.box {
+  width: 20px;
+  height: 40px;
+  background-color: #db4444;
+  border-radius: 15%;
+}
+.small-title-container {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.small-title-text {
+  font: bold 16px/14px poppins;
+  font-size: 16px;
+  white-space: nowrap;
+  color: #db4444;
+}
+
+.large-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+svg {
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}

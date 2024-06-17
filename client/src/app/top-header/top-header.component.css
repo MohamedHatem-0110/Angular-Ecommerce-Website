@@ -1,0 +1,26 @@
+.top-header{
+    background-color: #000;
+    margin: 0px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+select{
+    background-color: #000;
+    color: #fff;
+    border: 0px;
+    margin-left: 20px;
+    
+
+}
+p{
+    margin: auto;
+}
+a{
+    margin-left: 8px;
+    font: bold 16px/14px poppins;
+    color:#fff;
+}
