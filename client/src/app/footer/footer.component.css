@@ -1,10 +1,51 @@
-.footer{
-    background-color: black;
-    height: 440px;
-    padding: 80px 0px 0px 200px;
-    color: white;
+.footer {
+  background-color: black;
+  min-height: 300px;
+  /* padding: 80px 200px 0px 200px; */
+  padding-top: 80px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.logo{
-    font: bolder;
+.logo {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  background-color: black;
+  border-color: white;
+  border-radius: 4px;
+  max-height: 10px;
+  max-width: 217px;
+  color: white;
+  padding: 16px 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 60px;
+  }
+  .container {
+    gap: 5px;
+  }
+}
+
+.header {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
